@@ -50,4 +50,7 @@
   background-color: var(--keypad-div-bg-color);
   border-top-left-radius: var(--keypad-div-border-radius);
   border-top-right-radius: var(--keypad-div-border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
