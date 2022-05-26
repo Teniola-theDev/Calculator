@@ -68,4 +68,52 @@
 .keypad-button {
   background-color: var(--keypad-button-bg-color);
   border-radius: var(--keypad-button-border-radius);
+  color: var(--keypad-button-font-color);
+  font-size: var(--keypad-button-font-size);
+  font-weight: var(--keypad-button-font-weight);
+  text-align: center;
+  grid-auto-flow: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: ;
+}
+
+.c {
+}
+.plus-slash-minus {
+}
+
+.percent {
+}
+
+.slash {
+}
+.seven {
+}
+.eight {
+}
+.nine {
+}
+.x {
+}
+.four {
+}
+.five {
+}
+.six {
+}
+.minus {
+}
+.one {
+}
+.two {
+}
+.three {
+}
+.plus {
+}
+.zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
