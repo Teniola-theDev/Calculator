@@ -54,3 +54,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.keypad-box {
+  height: 438px;
+  width: 340px;
+}
