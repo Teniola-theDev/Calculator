@@ -83,6 +83,20 @@
   box-shadow: 10px 10px 4px 0px #323e6333;
 }
 
+.c,
+.plus-slash-minus,
+.percent {
+  color: var(--keypad-button-upper-color);
+}
+
+.slash,
+.x,
+.minus,
+.plus,
+.equal-to {
+  color: var(--keypad-button-right-color);
+}
+
 .c {
 }
 .plus-slash-minus {
