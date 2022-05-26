@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --screen-bg-color: #8AA5E4;
+  --keypad-div-bg-color: #1D2B57;
+  --keypad-button-bg-color: #323E63;
+  --keypad-button-font-size: 32px;
+  --keypad-button-font-color: #fff;
+  --keypad-button-font-family: Inter;
+  --keypad-button-font-weight: 600;
+  
+/* */
+
+
+
+
+}
+
+.responsive-container {
+  margin: 0 auto;
+  height: 800px;
+  max-width: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc-container {
+  display: flex;
+  flex-direction: column;
+  width: 414px;
+  height: 736px;
+  /* border: 1px solid black; */
+}
+
+.screen-div {
+  height: 228px;
+  width: 414px;
+  border: 1px solid blue;
+  background-color
+}
+
+.keypad {
+  height: 508px;
+  width: 414px;
+  border: 1px solid green;
+}
