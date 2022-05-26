@@ -17,7 +17,8 @@
   --keypad-button-font-weight: 600;
   --keypad-div-border-radius: 20px;
   --keypad-button-border-radius: 10px;
-
+  --keypad-button-upper-color: #cedb37;
+  --keypad-button-right-color: #0beefd;
   /* */
 }
 
