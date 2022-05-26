@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -11,9 +13,9 @@
   --keypad-button-bg-color: #323e63;
   --keypad-button-font-size: 32px;
   --keypad-button-font-color: #fff;
-  --keypad-button-font-family: Inter;
+  --keypad-button-font-family: "Inter", sans-serif;
   --keypad-button-font-weight: 600;
-  --keypad-div-border-radius: 16px;
+  --keypad-div-border-radius: 20px;
   --keypad-button-border-radius: 10px;
 
   /* */
@@ -71,6 +73,7 @@
   color: var(--keypad-button-font-color);
   font-size: var(--keypad-button-font-size);
   font-weight: var(--keypad-button-font-weight);
+  font-family: var(--keypad-button-font-family);
   text-align: center;
   grid-auto-flow: column;
   display: flex;
