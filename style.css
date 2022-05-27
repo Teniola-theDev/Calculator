@@ -19,6 +19,9 @@
   --keypad-button-border-radius: 10px;
   --keypad-button-upper-color: #cedb37;
   --keypad-button-right-color: #0beefd;
+  --screen-output-font-color: #fff;
+  --screen-output-font-size: 44px;
+  --screen-output-font-weight: 700;
   /* */
 }
 
@@ -39,7 +42,7 @@ body {
   flex-direction: column;
   width: 414px;
   height: 736px;
-  /* border: 1px solid black; */
+
   background-color: var(--calculator-bg-color);
 }
 
@@ -50,14 +53,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid blue; */
+
   background-color: var(--screen-bg-color);
 }
 
 .keypad-div {
   height: 508px;
   width: 414px;
-  /* border: 1px solid green; */
+
   background-color: var(--keypad-div-bg-color);
   border-top-left-radius: var(--keypad-div-border-radius);
   border-top-right-radius: var(--keypad-div-border-radius);
@@ -110,7 +113,6 @@ body {
 }
 
 .screen {
-  /* border: 1px solid red; */
   width: 351px;
   height: 206.8px;
   flex-direction: column;
@@ -120,11 +122,8 @@ body {
 .icons {
   flex-direction: column;
   align-items: flex-start;
-
   width: 351px;
   height: 52px;
-
-  /* border: 1px solid red; */
 }
 
 .status-bar {
@@ -149,7 +148,6 @@ body {
   width: 351px;
   height: 90px;
   column-gap: 15px;
-  /* border: 1px solid red; */
 }
 
 .screen-gap {
@@ -167,15 +165,14 @@ body {
 .output {
   width: 149px;
   height: 53px;
-
   font-family: var(--keypad-button-font-family);
-  font-size: 44px;
-  font-weight: 700;
+  font-size: var(--screen-output-font-size);
+  font-weight: var(--screen-output-font-weight);
   color: var(--keypad-button-font-color);
 }
 
 @media screen and (min-width: 300px) and (max-width: 700px) {
-  .responsive-container {
+  .calc-container {
     transform: scale(0.65);
   }
 }
