@@ -22,6 +22,9 @@
   /* */
 }
 
+body {
+  background-color: #e5e5e5;
+}
 .responsive-container {
   margin: 0 auto;
   height: 800px;
@@ -101,40 +104,6 @@
   color: var(--keypad-button-right-color);
 }
 
-.c {
-}
-.plus-slash-minus {
-}
-
-.percent {
-}
-
-.slash {
-}
-.seven {
-}
-.eight {
-}
-.nine {
-}
-.x {
-}
-.four {
-}
-.five {
-}
-.six {
-}
-.minus {
-}
-.one {
-}
-.two {
-}
-.three {
-}
-.plus {
-}
 .zero {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -203,4 +172,16 @@
   font-size: 44px;
   font-weight: 700;
   color: var(--keypad-button-font-color);
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .responsive-container {
+    transform: scale(0.65);
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 2000px) {
+  .responsive-container {
+    transform: scale(0.77);
+  }
 }
