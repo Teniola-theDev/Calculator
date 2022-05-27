@@ -22,12 +22,12 @@
   --screen-output-font-color: #fff;
   --screen-output-font-size: 44px;
   --screen-output-font-weight: 700;
-  /* */
 }
-
+/* BACKGROUND-COLOR of Project */
 body {
   background-color: #e5e5e5;
 }
+/* Responsive container just like altschool taught me  */
 .responsive-container {
   margin: 0 auto;
   height: 800px;
@@ -37,79 +37,23 @@ body {
   justify-content: center;
 }
 
+/* Calculator body */
 .calc-container {
   display: flex;
   flex-direction: column;
   width: 414px;
   height: 736px;
-
   background-color: var(--calculator-bg-color);
 }
-
+/* Calculator screen */
 .screen-div {
   height: 228px;
   width: 414px;
-  padding: 21.2px 39px 15px 24.21px;
+  padding: 21.3px 39px 15px 24.21px;
   display: flex;
   align-items: center;
   justify-content: center;
-
   background-color: var(--screen-bg-color);
-}
-
-.keypad-div {
-  height: 508px;
-  width: 414px;
-
-  background-color: var(--keypad-div-bg-color);
-  border-top-left-radius: var(--keypad-div-border-radius);
-  border-top-right-radius: var(--keypad-div-border-radius);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.keypad-box {
-  height: 438px;
-  width: 340px;
-  display: grid;
-  grid-template-columns: repeat(4, 75px);
-  grid-template-rows: repeat(5, 75px);
-  gap: 13.33px;
-}
-
-.keypad-button {
-  background-color: var(--keypad-button-bg-color);
-  border-radius: var(--keypad-button-border-radius);
-  color: var(--keypad-button-font-color);
-  font-size: var(--keypad-button-font-size);
-  font-weight: var(--keypad-button-font-weight);
-  font-family: var(--keypad-button-font-family);
-  text-align: center;
-  grid-auto-flow: column;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 10px 10px 4px 0px #323e6333;
-}
-
-.c,
-.plus-slash-minus,
-.percent {
-  color: var(--keypad-button-upper-color);
-}
-
-.slash,
-.x,
-.minus,
-.plus,
-.equal-to {
-  color: var(--keypad-button-right-color);
-}
-
-.zero {
-  grid-column-start: 1;
-  grid-column-end: 3;
 }
 
 .screen {
@@ -170,6 +114,71 @@ body {
   font-weight: var(--screen-output-font-weight);
   color: var(--keypad-button-font-color);
 }
+
+/* CALCULATOR SCREEN STYLING ends */
+
+/* CALCULATOR SCREEN STYLING ends */
+/* CALCULATOR SCREEN STYLING ends */
+/* CALCULATOR keypad STYLING starts */
+/* CALCULATOR keypad STYLING starts */
+/* CALCULATOR keypad STYLING starts */
+
+.keypad-div {
+  height: 508px;
+  width: 414px;
+  background-color: var(--keypad-div-bg-color);
+  border-top-left-radius: var(--keypad-div-border-radius);
+  border-top-right-radius: var(--keypad-div-border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.keypad-box {
+  height: 438px;
+  width: 340px;
+  display: grid;
+  grid-template-columns: repeat(4, 75px);
+  grid-template-rows: repeat(5, 75px);
+  gap: 13.33px;
+}
+
+.keypad-button {
+  background-color: var(--keypad-button-bg-color);
+  border-radius: var(--keypad-button-border-radius);
+  color: var(--keypad-button-font-color);
+  font-size: var(--keypad-button-font-size);
+  font-weight: var(--keypad-button-font-weight);
+  font-family: var(--keypad-button-font-family);
+  text-align: center;
+  grid-auto-flow: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 4px 0px #323e6333;
+}
+/* color for upper buttons */
+.c,
+.plus-slash-minus,
+.percent {
+  color: var(--keypad-button-upper-color);
+}
+/* color for right buttons */
+.slash,
+.x,
+.minus,
+.plus,
+.equal-to {
+  color: var(--keypad-button-right-color);
+}
+/* to make zero button big */
+.zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+/* STYLING FOR BUTTON ends */
+/* STYLING FOR BUTTON ends */
+/* STYLING FOR BUTTON ends */
 
 @media screen and (max-width: 299px) {
   .calc-container {
