@@ -141,7 +141,7 @@
 }
 
 .screen {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 351px;
   height: 206.8px;
   flex-direction: column;
@@ -155,16 +155,7 @@
   width: 351px;
   height: 52px;
 
-  border: 1px solid red;
-}
-
-.numbers {
-  flex-direction: column;
-  align-items: flex-end;
-  width: 351px;
-  height: 90px;
-  column-gap: 15px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .status-bar {
@@ -179,4 +170,37 @@
   background-image: url("img/stopwatch.png");
   background-size: cover;
   background-position: center;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 351px;
+  height: 90px;
+  column-gap: 15px;
+  /* border: 1px solid red; */
+}
+
+.screen-gap {
+  height: 50px;
+  width: 351px;
+}
+
+.input {
+  width: 111px;
+  height: 29px;
+  background-image: url("img/input.png");
+  margin-right: 13px;
+}
+
+.output {
+  width: 149px;
+  height: 53px;
+
+  font-family: var(--keypad-button-font-family);
+  font-size: 44px;
+  font-weight: 700;
+  color: var(--keypad-button-font-color);
 }
